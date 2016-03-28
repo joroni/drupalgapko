@@ -1,0 +1,11 @@
+div#_drupalgap_splash {
+  background-color: transparent;
+    background-image: url("images/wall_1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    width: 100%;
+}
