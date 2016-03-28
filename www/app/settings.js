@@ -13,7 +13,7 @@ Drupal.settings.debug = true;
  ****************************************/
 
 /* DRUPAL PATHS */
-
+ 
 // Site Path (do not use a trailing slash)
 Drupal.settings.site_path = 'http://northfitnesshub.com/koproj'; // e.g. http://www.example.com
 
@@ -102,7 +102,7 @@ Drupal.settings.cache.views = {
 // DrupalGap Mode (defaults to 'web-app')
 //  'web-app' - use this mode to build a web application for a browser window
 //  'phonegap' - use this mode to build a mobile application with phonegap
-drupalgap.settings.mode = 'phonegap';
+drupalgap.settings.mode = 'web-app';
 
 // Language Files - locale/[language-code].json
 drupalgap.settings.locale = {
@@ -115,15 +115,15 @@ drupalgap.settings.locale = {
 
 // App Title
 drupalgap.settings.title = 'DrupalGap KO';
-
+ 
 // App Front Page
 drupalgap.settings.front = 'dashboard';
 
 // Theme
-drupalgap.settings.theme = 'easystreet3';
+drupalgap.settings.theme = 'simpletheme';
 
 // Logo
-drupalgap.settings.logo = 'themes/easystreet3/images/icon.png';
+drupalgap.settings.logo = 'themes/simpletheme/images/icon.png';
 
 // Offline Warning Message. Set to false to hide message.
 drupalgap.settings.offline_message = 'No connection found!';
@@ -260,7 +260,7 @@ drupalgap.settings.menus['main_menu'] = {
 drupalgap.settings.blocks = {}; // Do not remove this line.
 
 // Easy Street 3 Theme Blocks
-drupalgap.settings.blocks.easystreet3 = {
+drupalgap.settings.blocks.simpletheme = {
   header: {
     user_menu_anonymous: {
       roles: {
@@ -379,6 +379,7 @@ drupalgap.settings.menus.regions['footer'] = {
   ]
 };
 
+
 /*********|
  * Camera |
  **********/
@@ -393,3 +394,4 @@ drupalgap.settings.cache = {}; // Do not remove this line.
 
 // Theme Registry - Set to true to load the page.tpl.html contents from cache.
 drupalgap.settings.cache.theme_registry = true;
+
